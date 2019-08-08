@@ -1,5 +1,5 @@
 {
-  "name": "perimeterx-node-core",
+  "name": "@getloconow/perimeterx-node-core",
   "version": "2.2.0",
   "description": "PerimeterX NodeJS shared core for various applications to monitor and block traffic according to PerimeterX risk score",
   "main": "index.js",
@@ -8,6 +8,9 @@
     "cover": "istanbul cover _mocha",
     "lint": "./node_modules/eslint/bin/eslint.js lib/",
     "lint:fix": "./node_modules/eslint/bin/eslint.js lib/ --fix"
+  },
+  "publishConfig": {
+    "access": "restricted"
   },
   "keywords": [
     "perimeterx"
